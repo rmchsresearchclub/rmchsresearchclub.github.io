@@ -14,7 +14,7 @@
     <article class={"border p-4 flex flex-row items-center justify-between gap-2 " + otherClass}>
         <Icon icon={icon} height={80} />
         <h1 class="font-bold text-xl">{name}</h1>
-        <a href={resolve(`/rmchs_web/academics/${sublink}`)} class="border p-2 border-black hover:bg-gray-300 no-underline text-black">Learn more</a>
+        <a href={resolve(`/academics/${sublink}`)} class="border p-2 border-black hover:bg-gray-300 no-underline text-black">Learn more</a>
     </article>
 {/snippet}
 
