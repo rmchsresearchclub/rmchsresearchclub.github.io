@@ -15,7 +15,7 @@
 
 <details>
     <summary>Why?</summary>
-    <a href={resolve("/admin")}>Please visit this link.</a>
+    <a href={resolve("/rmchs_web/admin")}>Please visit this link.</a>
 </details>
 
 <br>
@@ -27,7 +27,7 @@
 
 <p>Fast links:</p>
 <ul class="list-disc ml-8">
-    <li><a href={resolve("/academics/ste")}>/academics/ste</a></li>
+    <li><a href={resolve("/rmchs_web/academics")}>/academics</a></li>
 </ul>
 
 <p class="mb-6700"></p>
