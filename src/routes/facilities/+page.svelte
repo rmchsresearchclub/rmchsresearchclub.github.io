@@ -85,7 +85,7 @@
             <enhanced:img class="object-contain xl:size-full size-2/3 m-auto" src={asset(`/assets/facilities/${facility}/cover.png`)}  alt={facilityInfo?.name} />
             <p class="my-6">{facilityInfo?.name}</p>    
         </button>
-        <p class="text-sm no-underline font-normal text-justify">{facilityInfo?.description} <a href={MAP_LINK}>View map.</a></p>
+        <p class="text-sm no-underline font-normal text-justify">{facilityInfo?.description} <a href={MAP_LINK} target="_blank">View map.</a></p>
     </li>
 {/snippet}
 
