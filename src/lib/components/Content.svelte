@@ -1,11 +1,11 @@
 <script lang="ts">
-    let { title = "title", children = undefined } = $props();
+    let { className = undefined, title = "title", children = undefined, centerHeader = false, hasTopMargin = true  } = $props();
 </script>
 
 <article>
-    <section class="flex flex-col gap-4 w-full mt-4">
-        <article class="border p-4">
-            <h3 class="text-2xl font-bold underline underline-offset-4 mb-2">{title}</h3>
+    <section class={"flex flex-col gap-4 w-full " + (hasTopMargin ? "mt-4 " : "") + (className ? className : "")}>
+        <article class="border p-4 size-full">
+            <h3 class={"text-2xl font-bold underline underline-offset-4 mb-8 mt-4" + (centerHeader ? " w-full text-center" : "")}>{title}</h3>
             <section>
                 {@render children?.()}
             </section>

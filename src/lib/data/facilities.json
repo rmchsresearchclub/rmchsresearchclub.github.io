@@ -1,0 +1,214 @@
+[
+    {
+        "imgPaths": [
+            {
+                "asset": "/assets/facilities/RM/Electrical_Installation_and_Maintenance_Room.png",
+                "name": "Electrical Installation And Maintenance Room"
+            },
+            {
+                "asset": "/assets/facilities/RM/ICT_Laboratory.PNG",
+                "name": "Ict Laboratory"
+            },
+            {
+                "asset": "/assets/facilities/RM/Mabuhay__81_Wellness_Training_Center.png",
+                "name": "Mabuhay 81 Wellness Training Center"
+            },
+            {
+                "asset": "/assets/facilities/RM/Nail_Art_Room.PNG",
+                "name": "Nail Art Room"
+            },
+            {
+                "asset": "/assets/facilities/RM/Technical_Drafting_Room.PNG",
+                "name": "Technical Drafting Room"
+            }
+        ],
+        "name": "RM",
+        "facilityId": "RM"
+    },
+    {
+        "imgPaths": [
+            {
+                "asset": "/assets/facilities/Mathay/HOPE_Center.PNG",
+                "name": "HOPE Center"
+            }
+        ],
+        "name": "Mathay",
+        "facilityId": "Mathay"
+    },
+    {
+        "imgPaths": [
+            {
+                "asset": "/assets/facilities/Old_Belmonte/Old_Belmonte.png",
+                "name": "Old Belmonte"
+            }
+        ],
+        "name": "Old Belmonte",
+        "facilityId": "Old_Belmonte"
+    },
+    {
+        "imgPaths": [
+            {
+                "asset": "/assets/facilities/YECS/Alternative_Learning_System_Room.PNG",
+                "name": "Alternative Learning System Room"
+            },
+            {
+                "asset": "/assets/facilities/YECS/Scouting_Office.PNG",
+                "name": "Scouting Office"
+            },
+            {
+                "asset": "/assets/facilities/YECS/Special_Program_in_the_Arts_Theater_Room.PNG",
+                "name": "Special Program In The Arts Theater Room"
+            }
+        ],
+        "name": "YECS",
+        "facilityId": "YECS"
+    },
+    {
+        "imgPaths": [
+            {
+                "asset": "/assets/facilities/Home_Economics/Cookery_Room.PNG",
+                "name": "Cookery Room"
+            },
+            {
+                "asset": "/assets/facilities/Home_Economics/Dressmaking_Room.PNG",
+                "name": "Dressmaking Room"
+            }
+        ],
+        "name": "Home Economics",
+        "facilityId": "Home_Economics"
+    },
+    {
+        "imgPaths": [
+            {
+                "asset": "/assets/facilities/Main/accounting_office.PNG",
+                "name": "Accounting Office"
+            },
+            {
+                "asset": "/assets/facilities/Main/audio-visual_room.PNG",
+                "name": "Audio-Visual Room"
+            },
+            {
+                "asset": "/assets/facilities/Main/canteen.PNG",
+                "name": "Canteen"
+            },
+            {
+                "asset": "/assets/facilities/Main/accounting_office.PNG",
+                "name": "Accounting Office"
+            },
+            {
+                "asset": "/assets/facilities/Main/chess_center.PNG",
+                "name": "Chess Center"
+            },
+            {
+                "asset": "/assets/facilities/Main/clinic.PNG",
+                "name": "Clinic"
+            },
+            {
+                "asset": "/assets/facilities/Main/DRRMO.PNG",
+                "name": "DRRMO"
+            },
+            {
+                "asset": "/assets/facilities/Main/ICT_Laboratory.PNG",
+                "name": "ICT Laboratory"
+            },
+            {
+                "asset": "/assets/facilities/Main/journalism_room.PNG",
+                "name": "Journalism Room"
+            },
+            {
+                "asset": "/assets/facilities/Main/learner_support_and_guidance_center.PNG",
+                "name": "Learner Support And Guidance Center"
+            },
+            {
+                "asset": "/assets/facilities/Main/open_library.PNG",
+                "name": "Open Library"
+            },
+            {
+                "asset": "/assets/facilities/Main/parking_lot.PNG",
+                "name": "Parking Lot"
+            },
+            {
+                "asset": "/assets/facilities/Main/photocopy_room.PNG",
+                "name": "Photocopy Room"
+            },
+            {
+                "asset": "/assets/facilities/Main/prayer_room.PNG",
+                "name": "Prayer Room"
+            },
+            {
+                "asset": "/assets/facilities/Main/principals_office.PNG",
+                "name": "Principals Office"
+            },
+            {
+                "asset": "/assets/facilities/Main/property_office.PNG",
+                "name": "Property Office"
+            },
+            {
+                "asset": "/assets/facilities/Main/quadrangle.PNG",
+                "name": "Quadrangle"
+            },
+            {
+                "asset": "/assets/facilities/Main/random_1.PNG",
+                "name": "random_1"
+            },
+            {
+                "asset": "/assets/facilities/Main/random_2.PNG",
+                "name": "random_2"
+            },
+            {
+                "asset": "/assets/facilities/Main/random_3.PNG",
+                "name": "random_3"
+            },
+            {
+                "asset": "/assets/facilities/Main/random_4.PNG",
+                "name": "random_4"
+            },
+            {
+                "asset": "/assets/facilities/Main/random_5.PNG",
+                "name": "random_5"
+            },
+            {
+                "asset": "/assets/facilities/Main/random_6.PNG",
+                "name": "random_6"
+            },
+            {
+                "asset": "/assets/facilities/Main/registrars_office.PNG",
+                "name": "Registrars Office"
+            },
+            {
+                "asset": "/assets/facilities/Main/sslg_office.PNG",
+                "name": "SSLG Office" 
+            },
+            {
+                "asset": "/assets/facilities/Main/staff_room.PNG",
+                "name": "Staff Room"
+            }
+        ],
+        "name": "Main",
+        "facilityId": "Main"
+    },
+    {
+        "imgPaths": [
+            {
+                "asset": "/assets/facilities/Legacy/Legacy_Room.PNG",
+                "name": "Legacy Room"
+            },
+            {
+                "asset": "/assets/facilities/Legacy/Physics_Laboratory.PNG",
+                "name": "Legacy Room"
+            }
+        ],
+        "name": "Legacy",
+        "facilityId": "Legacy"
+    },
+    {
+        "imgPaths": [
+            {
+                "asset": "/assets/facilities/New_Sonny_Belmonte/General_Science_Laboratory.PNG",
+                "name": "General Science Laboratory"
+            }
+        ],
+        "name": "New Sonny Belmonte",
+        "facilityId": "New_Sonny_Belmonte"
+    }
+]
