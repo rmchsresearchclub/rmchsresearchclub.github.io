@@ -2,6 +2,7 @@
 	import Content from "$lib/components/Content.svelte";
     import SubjectMatrix from "$lib/components/SubjectMatrix.svelte";
     import { m } from '$lib/paraglide/messages.js';
+	import Icon from "@iconify/svelte";
     import type { PageProps } from './$types';
 
     let { data }: PageProps = $props();
@@ -16,8 +17,7 @@
             The Special Needs Education (SNED) Program is an educational program/service designed to meet the needs 
             of children with disabilities who cannot profit from general or regular education.
         </p>
-        <p class="inline">Facebook: </p>
-        <a href="example.com">RMCHS something something</a>
+        <p>Facebook: <a href="https://www.facebook.com/rmchssned"><Icon icon={"ic:baseline-facebook"} class="inline mx-2" />Ramon Magsaysay Cubao High School - Special Needs Education</a></p>
     </Content>
 
     <SubjectMatrix />

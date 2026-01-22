@@ -4,6 +4,7 @@
 	import SubjectInfo from "$lib/components/SubjectInfo.svelte";
 	import SubjectMatrix from "$lib/components/SubjectMatrix.svelte";
     import { m } from '$lib/paraglide/messages.js';
+	import Icon from "@iconify/svelte";
     import type { PageProps } from './$types';
 
     let { data }: PageProps = $props();
@@ -54,8 +55,7 @@
             covering a range of art forms and disciplines. This is a program which also helps learners with 
             potentials or talents in the arts that will contribute to the socio-cultural and economic growth of the country.
         </p>
-        <p class="inline">Facebook: </p>
-        <a href="example.com">RMCHS something something</a>
+        <p>Facebook: <a href="https://www.facebook.com/profile.php?id=100083324169610"><Icon icon={"ic:baseline-facebook"} class="inline mx-2" />RMCHS Special Program in the Arts</a></p>
     </Content>
 
     <SubjectMatrix hasSpecialSubjectContainer={true} hasSpecialSubjects={true} specialSubjRenderAsOne={true}>

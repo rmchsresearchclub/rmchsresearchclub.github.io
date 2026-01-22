@@ -3,6 +3,7 @@
 	import StepByStep from "$lib/components/StepByStep.svelte";
 	import SubjectMatrix from "$lib/components/SubjectMatrix.svelte";
     import { m } from '$lib/paraglide/messages.js';
+	import Icon from "@iconify/svelte";
     import type { PageProps } from './$types';
 
     let { data }: PageProps = $props();
@@ -76,7 +77,7 @@
             who piloted the program in 1994.
         </p>
         <p class="inline">Facebook: </p>
-        <a href="example.com">RMCHS something something</a>
+        <p>Facebook: <a href="https://www.facebook.com/profile.php?id=100064188963192"><Icon icon={"ic:baseline-facebook"} class="inline mx-2" />Ramon Magsaysay Cubao High School - Special Science Program</a></p>
     </Content>
 
     <SubjectMatrix curriculum={"ste"} hasSpecialSubjects={true} specialSubjects={["special1", "special2", "special3"]} />
