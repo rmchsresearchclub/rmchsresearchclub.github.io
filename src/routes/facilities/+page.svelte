@@ -90,8 +90,7 @@
 {/snippet}
 
 <section class="max-w-10/12 mx-auto gap-4">
-    <Content className="size-full" title="Explore" centerHeader hasTopMargin={false}>
-        <p class="w-full text-center">Ramon Magsaysay (Cubao) High School has a total of eight buildings, where quality education takes place. <a href={MAP_LINK}>View map.</a></p>
+    <Content className="size-full" centerHeader hasTopMargin={false} hasTitle={}>
         <ul class="grid xl:grid-cols-4 xl:grid-rows-2 grid-rows-8 grid-flow-col gap-6 mt-6">
             {#each getFacilities() as facility}
                 {@render facilityItem(facility, getFacilityInfo(facility))}
