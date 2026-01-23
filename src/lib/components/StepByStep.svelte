@@ -41,7 +41,7 @@
 
 <Content title={title}>
     <p class="font-bold py-2 w-full text-center text-sm">STEP {current} OF {count}</p>
-    <Carousel class="mx-16 mt-0 mb-4 p-4 border" setApi={(emblaApi) => (api = emblaApi)}>
+    <Carousel class="mx-0 lg:mx-16 mt-0 mb-4 p-4 border" setApi={(emblaApi) => (api = emblaApi)}>
         <CarouselContent>
             {#each items as item}
                 <CarouselItem>
