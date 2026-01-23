@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta name="robots" content="noindex">
+        <title>error!!</title>
+
+        <style>
+            h1, p {
+                color: red;
+            }
+
+            body {
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>aww shucks something fatal has happened!</h1>
+        <p>%sveltekit.status%</p>
+        <p>%sveltekit.error.message%</p>
+
+        <img id="httpCat" src="" alt="HTTP cat" />
+
+        <script>
+            const httpCat = document.getElementById("httpCat");
+            httpCat.src = "https://http.cat/" + "%sveltekit.status%";
+        </script>
+    </body>
+</html>
