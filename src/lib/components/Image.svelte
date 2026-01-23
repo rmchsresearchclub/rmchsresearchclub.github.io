@@ -14,7 +14,7 @@
     }
 </script>
 
-<enhanced:img src={src} alt={alt} {...others} onclick={onImageClicked} />
+<enhanced:img class="cursor-pointer" src={src} alt={alt} {...others} onclick={onImageClicked} />
 
 {#if isOpen}
     {#if popupContainer !== undefined}
