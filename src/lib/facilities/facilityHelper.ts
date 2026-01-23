@@ -3,6 +3,9 @@ import _data from "$lib/data/facilities.json";
 let data: Facilities = _data;
 
 export interface FacilityPlaceImage {
+    // You may have noticed, the asset paths in /lib/data/facilities.json are absolute references to images.
+    // What if you don't want to type the whole path again and again?
+    // TODO Next maintainance task: make the asset paths relative.
     asset: string,
     name: string
 };

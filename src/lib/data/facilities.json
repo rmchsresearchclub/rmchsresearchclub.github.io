@@ -209,6 +209,22 @@
             {
                 "asset": "/assets/facilities/New_Sonny_Belmonte/General_Science_Laboratory.PNG",
                 "name": "General Science Laboratory"
+            },
+            {
+                "asset": "/assets/facilities/New_Sonny_Belmonte/Biology_Laboratory.PNG",
+                "name": "Biology Laboratory"
+            },
+            {
+                "asset": "/assets/facilities/New_Sonny_Belmonte/Chemistry_Laboratory.PNG",
+                "name": "Chemistry Laboratory"
+            },
+            {
+                "asset": "/assets/facilities/New_Sonny_Belmonte/ICT_Laboratory.PNG",
+                "name": "ICT Laboratory"
+            },
+            {
+                "asset": "/assets/facilities/New_Sonny_Belmonte/Mathematics_Training_Room.PNG",
+                "name": "Mathematics Training Room"
             }
         ],
         "name": "New Sonny Belmonte",
