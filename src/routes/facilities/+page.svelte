@@ -111,7 +111,7 @@
                         {#each getFacilityInfo(selected)?.imgPaths as item}
                             <CarouselItem>
                                 <figure>
-                                    <figcaption class="w-full top-0 left-0 my-4 text-center font-bold mix-blend-exclusion text-2xl">{item.name}</figcaption>
+                                    <figcaption class="w-full top-0 left-0 lg:my-4 my-2 text-center font-bold mix-blend-exclusion lg:text-2xl text-sm">{item.name}</figcaption>
                                     <Image popupContainer={imageViewerContent} class="max-w-3/4 max-h-3/4 mx-auto" src={asset(item.asset)} alt={item.name} />
                                 </figure>
                             </CarouselItem>
