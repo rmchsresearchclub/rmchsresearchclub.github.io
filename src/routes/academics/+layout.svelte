@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>RMCHS Academics</title>
+</svelte:head>
+
 <script lang="ts">
     import type { LayoutProps } from './$types';
 	import SetOfLinks from '$lib/components/SetOfLinks.svelte';

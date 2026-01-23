@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>RMCHS Special Program in the Arts</title>
+</svelte:head>
+
 <script lang="ts">
 	import Content from "$lib/components/Content.svelte";
 	import StepByStep from "$lib/components/StepByStep.svelte";

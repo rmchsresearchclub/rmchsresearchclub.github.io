@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>RMCHS Senior High School</title>
+</svelte:head>
+
 <script lang="ts">
     import Content from '$lib/components/Content.svelte';
 import type { PageProps } from './$types';

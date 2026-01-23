@@ -1,7 +1,11 @@
+<svelte:head>
+    <title>RMCHS Basic Education Curriculum</title>
+</svelte:head>
+
 <script lang="ts">
 	import Content from "$lib/components/Content.svelte";
 	import SubjectInfo from "$lib/components/SubjectInfo.svelte";
-import SubjectMatrix from "$lib/components/SubjectMatrix.svelte";
+    import SubjectMatrix from "$lib/components/SubjectMatrix.svelte";
     import { m } from '$lib/paraglide/messages.js';
     import type { PageProps } from './$types';
 

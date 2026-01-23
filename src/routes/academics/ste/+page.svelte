@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>RMCHS Science, Technology, and Engineering Program</title>
+</svelte:head>
+
 <script lang="ts">
 	import Content from "$lib/components/Content.svelte";
 	import StepByStep from "$lib/components/StepByStep.svelte";

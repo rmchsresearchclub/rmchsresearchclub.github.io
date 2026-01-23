@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>RMCHS Facilities</title>
+</svelte:head>
+
 <script lang="ts">
     import type { LayoutProps } from './$types';
 

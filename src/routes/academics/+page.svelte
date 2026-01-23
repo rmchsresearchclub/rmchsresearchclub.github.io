@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>RMCHS Academics List</title>
+</svelte:head>
+
 <script lang="ts">
     import type { PageProps } from './$types';
     import Icon from "@iconify/svelte";

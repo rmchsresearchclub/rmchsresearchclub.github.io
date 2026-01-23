@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>RMCHS Special Needs Education</title>
+</svelte:head>
+
+
 <script lang="ts">
 	import Content from "$lib/components/Content.svelte";
     import SubjectMatrix from "$lib/components/SubjectMatrix.svelte";
