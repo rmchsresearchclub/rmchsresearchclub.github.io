@@ -51,15 +51,15 @@
     {
         "imgPaths": [
             {
-                "asset": "/assets/facilities/YECS/Alternative_Learning_System_Room.PNG",
+                "asset": "/assets/facilities/Technical_Vocational/Alternative_Learning_System_Room.PNG",
                 "name": "Alternative Learning System Room"
             },
             {
-                "asset": "/assets/facilities/YECS/Scouting_Office.PNG",
+                "asset": "/assets/facilities/Technical_Vocational/Scouting_Office.PNG",
                 "name": "Scouting Office"
             },
             {
-                "asset": "/assets/facilities/YECS/Special_Program_in_the_Arts_Theater_Room.PNG",
+                "asset": "/assets/facilities/Technical_Vocational/Special_Program_in_the_Arts_Theater_Room.PNG",
                 "name": "Special Program In The Arts Theater Room"
             }
         ],
