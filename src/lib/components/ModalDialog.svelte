@@ -12,7 +12,7 @@
 
 <!-- dark mode doesn't exist on Google Sites. -->
 <dialog 
-    class="fixed w-full h-full mx-auto my-auto inset-0 bg-black/30 flex items-center justify-center z-50 backdrop-blur-xs"
+    class="fixed w-full h-full mx-auto my-auto inset-0 bg-black/30 flex items-center justify-center z-50"
     onclick={tryClosingTheDamnDialog}
     in:fade={{duration: 100}}
     out:fade={{duration: 100}}>
