@@ -20,5 +20,5 @@
 <br>
 <p>
     This website and its source code are currently being hosted at the 
-    <a href="https://github.com/rmchs">RMCHS Github account.</a>
+    <a href="https://github.com/rmchs">RMCHS Github account. Feel free to contribute!</a>
 </p>
