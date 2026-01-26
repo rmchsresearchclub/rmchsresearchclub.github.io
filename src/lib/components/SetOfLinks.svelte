@@ -9,7 +9,8 @@
     export interface Link {
         icon: string,
         title: string,
-        href: string
+        href: string,
+        isUrl: boolean
     }
 </script>
 
@@ -17,7 +18,7 @@
     <!-- tailwind classes are larger than the fricking mount everest -->
     {#each links as link}
         <a class="rounded-full border border-black backdrop-blur-xs px-2 py-1 flex flex-row items-center gap-2 text-sm text-center lg:text-md lg:text-left" 
-            href={resolve(link.href)}>
+            href={link.isUrl ? link.href : resolve(link.href)}>
             <Icon icon={link.icon} class="inline size-8 lg:size-4" />
             <span class="hidden lg:inline">{link.title}</span>
         </a>    
