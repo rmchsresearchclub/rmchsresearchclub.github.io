@@ -10,7 +10,7 @@
 <p><strong>For school/technical administrators:</strong></p>
 <p>
     This website serves as a microsite for some pages in the official 
-    <a href="https://example.com">Ramon Magsaysay (Cubao) High School</a> website. 
+    <a href="https://sites.google.com/depedqc.ph/rmchs/home">Ramon Magsaysay (Cubao) High School</a> website. 
 </p>
 
 <p>For more information, please visit <a href={resolve("/admin")}>this link.</a></p>
